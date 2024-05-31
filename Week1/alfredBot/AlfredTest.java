@@ -1,5 +1,3 @@
-package Week1.alfredBot;
-
 public class AlfredTest {
     /*
     * This main method will always be the launch point for a Java application
@@ -12,7 +10,7 @@ public class AlfredTest {
         
         // Make some test greetings, providing any necessary data
         String testGreeting = alfredBot.basicGreeting();
-        String testGuestGreeting = alfredBot.guestGreeting("Commisioner Gordon");
+        String testGuestGreeting = alfredBot.guestGreeting("Commissioner Gordon");
         String testDateAnnouncement = alfredBot.dateAnnouncement();
         
         String alexisTest = alfredBot.respondBeforeAlexis(

@@ -1,5 +1,3 @@
-package Week1.Nosack_Brian_Cafe_Java;
-
 public class CafeJava {
         public static void main(String[] args) {
             // APP VARIABLES

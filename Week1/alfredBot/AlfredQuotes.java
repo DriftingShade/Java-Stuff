@@ -1,4 +1,3 @@
-package Week1.alfredBot;
 import java.util.Date;
 import java.text.SimpleDateFormat;
 import java.util.Random;
@@ -35,14 +34,14 @@ public class AlfredQuotes {
     }
     // This method checks to see if Alexis, Alfred or neither are present in the conversation and responds accordingly!
     public String respondBeforeAlexis(String conversation) {
-        if (conversation.indexOf("Alexis") != -1) {
-            return String.format("Right away friend!  Although, you have little need of that scrap heap...");
+        if (conversation.contains("Alexis")) {
+            return "Right away friend!  Although, you have little need of that scrap heap...";
         }
-        else if (conversation.indexOf("Alfred") != -1) {
-            return String.format("At your service, my friend!  I always strive to serve!");
+        else if (conversation.contains("Alfred")) {
+            return "At your service, my friend!  I always strive to serve!";
         }
         else {
-            return String.format("Very well!  With that, I shall retire.");
+            return "Very well!  With that, I shall retire.";
         }
     }
     // Implementing the ability for AlfredBot to tell us a random joke from this array!

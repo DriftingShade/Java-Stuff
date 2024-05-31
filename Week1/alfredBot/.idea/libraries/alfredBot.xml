@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="alfredBot">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/alfredBot.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
